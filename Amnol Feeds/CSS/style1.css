@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin :0px;
+    box-sizing: border-box;
+
+}
+.container{
+    width:500px;
+    height: 400px;
+    display:flex;
+    background-color: aqua;
+    padding:5px;
+    margin:10px;
+    
+
+
+}
+.innerbox{
+    display:flex;
+    flex-basis:33%;
+    border:1px solid black;
+    margin:4px;
+    background-color: bisque;
+}
+
+.card{
+    padding:4px;
+    display:flex;
+    font-weight: 600;
+    background-color: white;
+    margin:3px;
+    height: 42px;;
+    text-align: center;
+    cursor:pointer;
+    
+}
